@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: one;
+    src: url('/public/Werewolf_Limbo_203x.ttf');
+}
+
+html {
+  /* The standard smooth scroll */
+
+  /* Precision offset so the sticky navbar doesn't cover your section titles */
+  scroll-padding-top: 80px; 
+}
+
+/* Optimizes the page for high-refresh-rate monitors */
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+
+
+/* Optional: Custom Scrollbar to match the RS Mart Luxury aesthetic */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D4AF37; /* Gold thumb */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b8962d;
+}
+
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.animate-spin-slow {
+  animation: spin-slow 15s linear infinite;
+}
