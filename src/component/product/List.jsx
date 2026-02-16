@@ -34,7 +34,7 @@ const storeItems = [
     id: 4, name: "Legacy", sub: "Curated Gifts", icon: <Gift size={24} />, 
     img: "https://i.pinimg.com/1200x/4e/e8/2c/4ee82c79028b475bb3e2b91d0a6042f7.jpg",
     gallery: [
-      "/tedy.png",
+      "https://i.pinimg.com/736x/49/98/2e/49982e72dd200de834ceadcf7119107f.jpg",
       "https://i.pinimg.com/736x/5b/00/b0/5b00b06511c571fab0931b499725ab61.jpg",
       "https://i.pinimg.com/736x/9a/0f/5c/9a0f5c8bf4c72608317c51dd06229d6f.jpg"
     ]
@@ -188,5 +188,6 @@ const RSMartShowcase = () => {
     </div>
   );
 };
+
 
 export default RSMartShowcase;
