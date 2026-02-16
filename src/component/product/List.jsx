@@ -43,7 +43,7 @@ const storeItems = [
     id: 5, name: "Arena", sub: "Sports Tech", icon: <Trophy size={24} />, 
     img: "https://i.pinimg.com/736x/38/3c/60/383c60cbf78a6321c6a3668e61d4119f.jpg",
     gallery: [
-      "/tshirt.png",
+      "https://i.pinimg.com/736x/49/98/2e/49982e72dd200de834ceadcf7119107f.jpg",
       "https://i.pinimg.com/1200x/ce/c9/bf/cec9bf74a672078d00672135b2c4d9d1.jpg",
       "/short.png"
     ]
@@ -191,3 +191,4 @@ const RSMartShowcase = () => {
 
 
 export default RSMartShowcase;
+
