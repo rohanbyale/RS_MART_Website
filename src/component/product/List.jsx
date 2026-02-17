@@ -26,7 +26,7 @@ const storeItems = [
     img: "https://i.pinimg.com/736x/55/36/9e/55369e1ff3be12a9d3d0d8142e438a1a.jpg",
     gallery: [
       "https://images.unsplash.com/photo-1558060370-d644479cb6f7?q=80&w=400",
-      "/public/35932d425845ff5d408db4e719b01a8b-removebg-preview.png",
+      "/35932d425845ff5d408db4e719b01a8b-removebg-preview.png",
       "https://images.unsplash.com/photo-1585366119957-e9730b6d0f60?q=80&w=400"
     ]
   },
@@ -191,4 +191,5 @@ const RSMartShowcase = () => {
 
 
 export default RSMartShowcase;
+
 
