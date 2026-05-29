@@ -74,7 +74,7 @@ const AboutHero = () => {
             </motion.div>
           </div>
 
-          {/* 4. CONTENT AREA */}
+          
           <div className="w-full lg:w-1/2 text-center lg:text-left">
             <motion.div style={{ scale: textScale }}>
               {/* IMPROVED UI TAG */}
