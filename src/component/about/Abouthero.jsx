@@ -151,7 +151,7 @@ const AboutHero = () => {
         </div>
       </div>
 
-      {/* 5. LUXURY SCROLL INDICATOR */}
+      
       <motion.div 
         style={{ opacity }}
         className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center"
