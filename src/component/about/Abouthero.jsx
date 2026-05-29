@@ -19,7 +19,7 @@ const AboutHero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#FAFAFA] pt-20">
       
-      {/* 1. LAYERED BACKGROUND TYPOGRAPHY */}
+    
       <motion.div 
         style={{ y: yBackground, opacity: 0.04 }}
         className="absolute inset-0 flex flex-col items-center justify-center select-none pointer-events-none"
