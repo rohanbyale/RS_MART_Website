@@ -35,7 +35,8 @@ const AboutHero = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="flex flex-col lg:flex-row items-center gap-12 xl:gap-24">
           
-          {/* 3. MULTI-LAYERED MEDIA COMPOSITION */}
+        
+          
           <div className="relative w-full lg:w-1/2 h-[500px] md:h-[650px]">
             <motion.div 
               initial={{ opacity: 0, scale: 1.1 }}
