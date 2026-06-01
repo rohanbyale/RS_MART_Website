@@ -100,7 +100,7 @@ const ProductPage = () => {
           </div>
         </div>
 
-        {/* TEXT SECTION */}
+        
         <div className="text-center lg:text-left order-2 lg:order-1 px-4">
           <motion.div
             key={`text-${index}`}
